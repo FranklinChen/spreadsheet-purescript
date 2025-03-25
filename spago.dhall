@@ -12,14 +12,12 @@ to generate this file without the comments in this block.
 -}
 { name = "spreadsheet"
 , dependencies =
-  [ "console"
-  , "effect"
+  [ "effect"
   , "exists"
   , "foldable-traversable"
   , "lists"
   , "maybe"
   , "prelude"
-  , "psci-support"
   , "refs"
   , "strings"
   , "test-unit"
