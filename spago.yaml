@@ -1,0 +1,15 @@
+package:
+  name: spreadsheet-purescript
+  dependencies:
+    - console
+    - effect
+    - prelude
+    - strings
+  test:
+    main: Test.Main
+    dependencies:
+      - test-unit
+workspace:
+  packageSet:
+    registry: 69.7.0
+  extraPackages: {}
